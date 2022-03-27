@@ -21,11 +21,11 @@ body{
    width: 327px;
    margin: 0 auto;
    background-color: #232a34a8;
-   padding: 1.5rem 2rem;
+   padding: 1.5rem 1.4rem;
    border-radius: 1rem;
 }
 
-.circle{
+.circle-star{
     background-color: #262E38;
     height: 48px;
     width: 48px;
@@ -51,3 +51,43 @@ p{
     line-height: 22px;
     margin-top: 0.9rem;
 }
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.circle{
+    background-color: #262E38;
+    color: #7C8798;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.circle:hover{
+    color: #262E38;
+    background-color: #7C8798;
+    cursor: pointer;
+}
+
+button{
+    background-color: #FC7614;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.8rem 0.7rem;
+    border-radius: 2rem;
+   
+
+}
+
+button:hover{
+    background-color: #fff;
+    color: #FC7614;
+}
+
