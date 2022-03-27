@@ -71,9 +71,14 @@ p{
 }
 
 .circle:hover{
-    color: #262E38;
+    color: #fff;
     background-color: #7C8798;
     cursor: pointer;
+}
+
+.circle-clicked{
+    background-color: #FC7614 !important;
+    color: #fff !important;
 }
 
 button{
