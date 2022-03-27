@@ -1,4 +1,5 @@
 let selection;
+const pre_form =document.getElementById('pre-form')
 console.log(selection)
 const allChoices = document.querySelectorAll('.circle');
 for (let i = 0; i < allChoices.length; i++) {
@@ -18,5 +19,5 @@ for (let i = 0; i < allChoices.length; i++) {
         alert('Please select a rating!')
         return false
     
-    }
+    } 
   }
