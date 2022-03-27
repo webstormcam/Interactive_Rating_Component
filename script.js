@@ -1,3 +1,4 @@
+let selection;
 const allChoices = document.querySelectorAll('.circle');
 for (let i = 0; i < allChoices.length; i++) {
     allChoices[i].addEventListener('click',function(event) {
