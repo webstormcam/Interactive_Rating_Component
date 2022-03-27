@@ -17,5 +17,6 @@ for (let i = 0; i < allChoices.length; i++) {
       if(selection===undefined){
         alert('Please select a rating!')
         return false
-      }
+    
     }
+  }
