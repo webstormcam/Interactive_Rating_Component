@@ -51,6 +51,10 @@ p{
     line-height: 22px;
     margin-top: 0.9rem;
 }
+form{
+    display: flex;
+    flex-direction: column;
+}
 
 .options{
     display: flex;
@@ -87,6 +91,9 @@ button{
     font-weight: bold;
     padding: 0.8rem 0.7rem;
     border-radius: 2rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    border: 1px solid #FC7614;
    
 
 }
@@ -94,5 +101,7 @@ button{
 button:hover{
     background-color: #fff;
     color: #FC7614;
+    border: 1px solid #fff;
+    cursor: pointer;
 }
 
