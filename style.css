@@ -6,3 +6,48 @@
 html{
     font-family: 'Overpass', sans-serif;
 }
+
+body{
+    background-color: #131518;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#question-box{
+    display: flex;
+    flex-direction: column;
+   width: 327px;
+   margin: 0 auto;
+   background-color: #232a34a8;
+   padding: 1.5rem 2rem;
+   border-radius: 1rem;
+}
+
+.circle{
+    background-color: #262E38;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.words{
+    margin-top: 2rem;
+}
+
+h1{
+    font-size: 24px;
+    color: #fff;
+    
+}
+
+p{
+    color: #969FAD;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 0.9rem;
+}
