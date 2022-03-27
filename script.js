@@ -1,4 +1,5 @@
 let selection;
+console.log(selection)
 const allChoices = document.querySelectorAll('.circle');
 for (let i = 0; i < allChoices.length; i++) {
     allChoices[i].addEventListener('click',function(event) {
@@ -8,4 +9,13 @@ for (let i = 0; i < allChoices.length; i++) {
      selection = event.target.innerHTML;
      console.log(selection)
      });
+    }
+
+
+
+    function validateMyForm(){
+      if(selection===undefined){
+        alert('Please select a rating!')
+        return false
+      }
     }
