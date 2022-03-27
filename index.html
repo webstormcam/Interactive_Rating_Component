@@ -15,7 +15,7 @@
 
 <body>
     <div id="question-box">
-        <div id='pre-from'>
+        <div id='pre-form'>
             <div class="circle-star"><img class="orange-star" src="imgs/icon-star.svg" alt="an orange star"></div>
             <div class="words">
                 <h1>How did we do?</h1>
@@ -23,7 +23,7 @@
                     improve
                     our offering!</p>
             </div>
-            <form action="#" method="post" onsubmit="validateMyForm();">
+            <form action="#" method="post" onsubmit=" validateMyForm();return false">
                 <div class="options">
                     <div class="circle">1</div>
                     <div class="circle">2</div>
@@ -32,7 +32,7 @@
                     <div class="circle">5</div>
 
                 </div>
-                <button>SUBMIT</button>
+                <button type="submit">SUBMIT</button>
             </form>
         </div>
         <div id="post-form">

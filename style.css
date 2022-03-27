@@ -119,7 +119,14 @@ button:hover{
     text-align: center;
 }
 
-
+#selected-wording{
+    color: #FC7614;
+    background-color: #262E38;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+}
 .thanks-pic{
     width: 144px;
     height: 96px;
