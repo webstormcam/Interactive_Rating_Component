@@ -5,5 +5,7 @@ for (let i = 0; i < allChoices.length; i++) {
       var prevRadio = document.querySelector('.circle-clicked');
       if(prevRadio) prevRadio.classList.remove('circle-clicked');
       event.target.classList.add("circle-clicked"); 
+     selection = event.target.innerHTML;
+     console.log(selection)
      });
     }
