@@ -123,11 +123,23 @@ button:hover{
     color: #FC7614;
     background-color: #262E38;
     border-radius: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     padding: 0.5rem 1rem;
 }
 .thanks-pic{
     width: 144px;
     height: 96px;
+}
+
+@media screen and (min-width:768px) {
+    #question-box{
+        display: flex;
+        flex-direction: column;
+       width: 412px;
+       margin: 0 auto;
+       background-color: #232a34a8;
+       padding: 1.5rem 2.3rem;
+       border-radius: 1rem;
+    }
 }
